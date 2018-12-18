@@ -5,6 +5,7 @@ package hangman.model;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
+import javafx.scene.Node;
 import javafx.scene.control.Button;
 import hangman.MainApp;
 import hangman.util.Alphabet;
@@ -28,8 +29,6 @@ public class Key extends Button {
 		this.setText(s);
 		this.setPrefWidth(35);
 		this.setId(s);
-
-		
 		this.setOnAction(new EventHandler<ActionEvent>() {
 
 			@Override
@@ -42,8 +41,11 @@ public class Key extends Button {
 	
 	public void setKeyDisable(int i) {
 		
+				
+		if(MainApp.controller1.word.length()!=0 && !MainApp.button.get(i).isDisable()) {
 		MainApp.button.get(i).setDisable(true);
 		MainApp.controller1.testNewLetter(Alphabet.getLetter(i));
+		}
 	}
 
 	public char getIdentity() {

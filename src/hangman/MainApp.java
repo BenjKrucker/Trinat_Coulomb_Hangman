@@ -81,28 +81,22 @@ public class MainApp extends Application {
 			// Load root layout from fxml file.
 
 			FXMLLoader loader = new FXMLLoader();
-
 			loader.setLocation(MainApp.class.getResource("view/RootLayout.fxml"));
-
 			rootLayout = (BorderPane) loader.load();
 
 			// Show the scene containing the root layout.
 
 			Scene scene = new Scene(rootLayout);
-
 			primaryStage.setScene(scene);
 
 			// Give the controller access to the main app.
 
 			RootLayoutController controller = loader.getController();
-
 			controller.setMainApp(this);
 
 			primaryStage.show();
-			
 
 		}catch(IOException e) {
-
 
 			e.printStackTrace();
 
@@ -117,17 +111,13 @@ public class MainApp extends Application {
 			// Load Keyboard view.
 
 			FXMLLoader loader = new FXMLLoader();
-
 			loader.setLocation(MainApp.class.getResource("view/Keyboard.fxml"));
-
 			keyboard = (GridPane) loader.load();
 
 			// Set Keyboard view into the bottom of root layout.
 
 			rootLayout.setBottom(keyboard);
-
 			KeyboardController controller = loader.getController();
-
 			controller.setMainApp(this);
 
 		} catch (IOException e) {
@@ -169,28 +159,14 @@ public class MainApp extends Application {
 	
 		
 			FXMLLoader loader = new FXMLLoader();
-
 			loader.setLocation(MainApp.class.getResource("view/Wordspace.fxml"));
-
 			wordSpace = (AnchorPane) loader.load();
 			
-			//wordSpace.setPrefSize(50, 50);
+			// Set Wordspace view into the Center of root layout.
 
-
-
-			// Set Wordspace view into the bottom of root layout.
-
-			rootLayout.setRight(wordSpace);
-
-
-
+			rootLayout.setCenter(wordSpace);
 			controller1 = loader.getController();
-			
-		
-
 			controller1.setMainApp(this);
-
-
 
 		} catch (IOException e) {
 
@@ -226,11 +202,8 @@ public class MainApp extends Application {
 					keyboard.add(button.get(l), 2 * i + a, j);
 					l++;
 				}
-
 			}
-
 		}
-
 	}
 
 	/**
@@ -244,13 +217,11 @@ public class MainApp extends Application {
 	public Stage getPrimaryStage() {
 
 		return primaryStage;
-
 	}
 	
 	public void resetGame() {
 		controller1.resetArraylists();
 		showMaennli(0);
-		showKeyboard();
 		showKeyboard();
 		showButton();
 		showWordspace();
@@ -262,5 +233,4 @@ public class MainApp extends Application {
 		launch(args);
 
 	}
-
 }

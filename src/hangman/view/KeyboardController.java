@@ -10,9 +10,7 @@ import javafx.scene.input.KeyEvent;
 public class KeyboardController {
 
 	private MainApp mainApp;
-
 	public void setMainApp(MainApp mainApp) {
-
 		this.mainApp = mainApp; 
 
 	}
@@ -26,15 +24,9 @@ public class KeyboardController {
 		if(key.getCode().isLetterKey()) {
 
 			String x = key.getCode().toString();
-
 			char letter = x.charAt(0);
-
 			MainApp.button.get(Alphabet.getNummber(letter)).setKeyDisable(Alphabet.getNummber(letter));
-			
 
 		}
-
 	}
-
-
 }
