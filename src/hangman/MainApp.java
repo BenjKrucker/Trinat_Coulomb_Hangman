@@ -248,6 +248,7 @@ public class MainApp extends Application {
 	}
 	
 	public void resetGame() {
+		controller1.word = "";
 		controller1.resetArraylists();
 		showMaennli(0);
 		showKeyboard();

@@ -21,7 +21,7 @@ import javafx.stage.Stage;
 
 public class WordspaceController {
 
-	static String word = "Beispiel";
+	public static String word = "";
 	static ArrayList<String> input = new ArrayList<String>();
 	static ArrayList<String> guess = new ArrayList<String>();
 
