@@ -34,7 +34,7 @@ inkl Storypoints
 | Test Scenario ID      | TS001                                                                        | Test Case ID   | TC001 |
 |-----------------------|------------------------------------------------------------------------------|----------------|-------|
 | Test Case Description | Check if the Alphabet Class delivers all its expected values                 | Test Priority  | High  |
-| Pre-Requisite         | The Class Alphabet with methods to deliver values depending on entered value | Post-Requisite | N/A   |
+| Pre-Requisite         | The Class Alphabet with methods to deliver values depending on entered value | Post-Requisite | None   |
 
 | Nr | Action                           | Input | Expected Output | Actual Output | IDE            | Test Result |
 |----|----------------------------------|-------|-----------------|---------------|----------------|-------------|
