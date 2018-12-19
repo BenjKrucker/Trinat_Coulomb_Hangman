@@ -123,9 +123,15 @@ public class WordspaceController {
 		
 		if(counter==11) {
 			gameResult.setText("LOSE!");
+			for(int u=0;u<26;u++) {
+				MainApp.button.get(u).setDisable(true);
+			}
 		}
 		if(guess.equals(input)) {
 			gameResult.setText("WIN!");
+			for(int u=0;u<26;u++) {
+				MainApp.button.get(u).setDisable(true);
+			}
 		}
 		
 		MainApp.maennli.updateMaennli(counter); //counter einfügen
