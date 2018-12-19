@@ -100,8 +100,6 @@ public class WordspaceController {
 		
 		int countTest=0;
 		
-		System.out.println(letter);
-		
 
 		String letterChoice = Character.toString(letter);
 
