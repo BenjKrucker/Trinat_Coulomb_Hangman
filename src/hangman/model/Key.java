@@ -42,17 +42,10 @@ public class Key extends Button {
 	
 	public void setKeyDisable(int i) {
 		
-		MainApp.button.get(i).setDisable(true);
-		MainApp.controller1.testNewLetter(Alphabet.getLetter(i));
-	}
-
-	public char getIdentity() {
-		return identity;
-	}
-
-	public void setIdentity(char identity) {
-		this.identity = identity;
+		if(MainApp.controller1.word.length()!=0 && !MainApp.button.get(i).isDisable()) {
+			MainApp.button.get(i).setDisable(true);
+			MainApp.controller1.testNewLetter(Alphabet.getLetter(i));
+			}
 	}
 	
-
 }
