@@ -32,6 +32,9 @@ public class WordspaceController {
 	public TextField wordToGuess;
 	
 	@FXML
+	public Label gameResult;
+	
+	@FXML
 	public void onEnter() {
 		word = wordToGuess.getText();
 		convertInput();
@@ -97,6 +100,8 @@ public class WordspaceController {
 		
 		int countTest=0;
 		
+		System.out.println(letter);
+		
 
 		String letterChoice = Character.toString(letter);
 
@@ -112,20 +117,27 @@ public class WordspaceController {
 			counter++;
 			}
 		
-		
 		//bring counter to picture
 
 		// return adapted char as string value
 		String outcome = String.join("", guess);
 		guessWord.setText(outcome);
 		
+		if(counter==11) {
+			gameResult.setText("LOSE!");
+		}
+		if(guess.equals(input)) {
+			gameResult.setText("WIN!");
+		}
+		
 		MainApp.maennli.updateMaennli(counter); //counter einfügen
+	
 	}
-
 	public static void resetArraylists() {
 		input.clear();
 		guess.clear();
 	}
+	
 	
 	
 	
