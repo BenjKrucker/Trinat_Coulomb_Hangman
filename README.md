@@ -26,10 +26,17 @@ Der Build wird durch Maven automatisiert.
 
 
 
-### Userstories mit Akzeptanzkriterien
+## Userstories mit Akzeptanzkriterien
 inkl Storypoints
 
-### Releas Plan
+## TestCases
+
+| Test Scenario ID      |  TS001 | Test Case ID   |   |
+|-----------------------|---|----------------|---|
+| Test Case Description |   | Test Priority  |   |
+| Pre-Requisite         |   | Post-Requisite |   |
+
+### Release Plan
 -	Business value
 inkl Ausbaustufen
 
