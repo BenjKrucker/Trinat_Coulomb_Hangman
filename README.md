@@ -27,8 +27,12 @@ Der Build wird durch Maven automatisiert.
 
 
 ### Userstories mit Akzeptanzkriterien
-inkl Storypoints
-
+| US | Name                 |                                                                                                                                                                                                                                                                                                                                                | SP | Prio |
+|----|----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----|------|
+| 1  | Virtuelle Tastatur   |  Als "Spieler 2" moechte ich "virtuelle tasten betätigen können"um " dem Spiel einen Buchstaben vor zu schlagen". #AK: - Teste, ob im Spiel eine virtuelle tastatur angezeigt wird. - Teste, ob das Programm eine bzw. die richtige Eingabe entgegennimmt.                                                                                   | 5  | 1    |
+| 2  | Physische Tastatur   |  Als Spieler 2 möchte ich "über die physischen tasten, Eingaben machen können" um " dem Spiel einen Buchstaben vor zu schlagen". #AK: - Teste, ob mit der Tastatur, Eingaben gemacht werden können die das Programm erkennt.                                                                                                                   | 3  | 5    |
+| 3  | Spielinitialisierung |  Als Spieler 1 moechte ich " über die physische oder vituelle Tastatur ein Wort eingeben koennen" um " das Spiel zu beginnen". #AK: - Teste, ob sich über die physische tastatur ein Wort eingeben lässt um das Spiel zu initialisieren. - Teste, ob sich über die virtuelle Tastatur ein Wort eingeben lässt um das Spiel zu initialisieren.  | 3  | 1    |
+|    |                      |                                                                                                                                                                                                                                                                                                                                                |    |      |
 ### Releas Plan
 -	Business value
 inkl Ausbaustufen
