@@ -31,10 +31,10 @@ inkl Storypoints
 
 ## TestCases
 
-| Test Scenario ID      |  TS001 | Test Case ID   |   |
-|-----------------------|---|----------------|---|
-| Test Case Description |   | Test Priority  |   |
-| Pre-Requisite         |   | Post-Requisite |   |
+| Test Scenario ID      | TS001                                                                        | Test Case ID   | TC001 |
+|-----------------------|------------------------------------------------------------------------------|----------------|-------|
+| Test Case Description | Check if the Alphabet Class delivers all its expected values                 | Test Priority  | High  |
+| Pre-Requisite         | The Class Alphabet with methods to deliver values depending on entered value | Post-Requisite | N/A   |
 
 ### Release Plan
 -	Business value
