@@ -180,7 +180,7 @@ public class MainApp extends Application {
 
 			// Set Wordspace view into the bottom of root layout.
 
-			rootLayout.setRight(wordSpace);
+			rootLayout.setCenter(wordSpace);
 
 
 

@@ -21,7 +21,6 @@
       <ColumnConstraints hgrow="SOMETIMES" minWidth="-Infinity" prefWidth="40.0" />
       <ColumnConstraints hgrow="SOMETIMES" minWidth="-Infinity" prefWidth="40.0" />
       <ColumnConstraints hgrow="SOMETIMES" minWidth="-Infinity" prefWidth="40.0" />
-      <ColumnConstraints hgrow="SOMETIMES" minWidth="-Infinity" prefWidth="40.0" />
       <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="100.0" />
       <ColumnConstraints hgrow="SOMETIMES" minWidth="-Infinity" />
    </columnConstraints>
