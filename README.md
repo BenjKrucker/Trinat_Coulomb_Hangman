@@ -26,6 +26,25 @@ Der Build wird durch Maven automatisiert.
 
 
 
+
+## Userstories mit Akzeptanzkriterien
+inkl Storypoints
+
+## TestCases
+
+| Test Scenario ID      | TS001                                                                        | Test Case ID   | TC001 |
+|-----------------------|------------------------------------------------------------------------------|----------------|-------|
+| Test Case Description | Check if the Alphabet Class delivers all its expected values                 | Test Priority  | High  |
+| Pre-Requisite         | The Class Alphabet with methods to deliver values depending on entered value | Post-Requisite | None   |
+
+| Nr | Action                           | Input | Expected Output | Actual Output | IDE            | Test Result |
+|----|----------------------------------|-------|-----------------|---------------|----------------|-------------|
+| 1  | Return letter based on number    | 3     | 'D'             | 'D'           | Eclipse EE IDE | Passed      |
+| 2  | Return number based on letter    | 'a'   | 0               | 0             | Eclipse EE IDE | Passed      |
+| 3  | Caps-insensitivity of Test Nr 2  | 'A'   | 0               | 0             | Eclipse EE IDE | Passed      |
+
+### Release Plan
+
 ### Userstories mit Akzeptanzkriterien
 | US | Name                 |                                                                                                                                                                                                                                                                                                                                                | SP | Prio |
 |----|----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----|------|
@@ -33,7 +52,8 @@ Der Build wird durch Maven automatisiert.
 | 2  | Physische Tastatur   |  Als Spieler 2 möchte ich "über die physischen tasten, Eingaben machen können" um " dem Spiel einen Buchstaben vor zu schlagen". #AK: - Teste, ob mit der Tastatur, Eingaben gemacht werden können die das Programm erkennt.                                                                                                                   | 3  | 5    |
 | 3  | Spielinitialisierung |  Als Spieler 1 moechte ich " über die physische oder vituelle Tastatur ein Wort eingeben koennen" um " das Spiel zu beginnen". #AK: - Teste, ob sich über die physische tastatur ein Wort eingeben lässt um das Spiel zu initialisieren. - Teste, ob sich über die virtuelle Tastatur ein Wort eingeben lässt um das Spiel zu initialisieren.  | 3  | 1    |
 |    |                      |                                                                                                                                                                                                                                                                                                                                                |    |      |
-### Releas Plan
+### Release Plan
+
 -	Business value
 inkl Ausbaustufen
 
