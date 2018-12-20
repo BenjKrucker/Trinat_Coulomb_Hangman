@@ -23,7 +23,10 @@ Der Build wird durch Maven automatisiert.
 ## Build Anleitung
 
 ## Bedienungsanleitung
+Das Ziel des Spiels ist ein vorgegebenes Wort zu erraten.
 
+1. Schritt
+	Der Spieler 1 giebt ein Wort 
 
 
 ### Userstories mit Akzeptanzkriterien
