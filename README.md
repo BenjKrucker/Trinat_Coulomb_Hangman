@@ -54,7 +54,6 @@ inkl Storypoints
 |    |                      |                                                                                                                                                                                                                                                                                                                                                |    |      |
 ### Release Plan
 
-@startuml
 skinparam classAttributeIconSize 0
 class Dummy {
  -field1
@@ -63,7 +62,6 @@ class Dummy {
  +method2()
 }
 
-@enduml
 
 -	Business value
 inkl Ausbaustufen
